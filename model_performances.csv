@@ -9,3 +9,4 @@ timestamp,model_id,model_name,mae,rmse,r2_score,features,comments
 2026-02-28 11:58:39,006,CatBoost,6.7029660478676885,13.045924443863086,0.8862022878435185,all_numeric_16_cols,"1000 iterations, symmetric trees"
 2026-02-28 12:01:00,007,"Stacking Ensemble (LGBM, XGB, CAT)",6.641591493183692,12.900389450564282,0.8887270874335365,all_numeric_16_cols,Combined top 3 models with Linear Meta-Regressor
 2026-02-28 12:47:22,008,LightGBM (Optuna Tuned),6.612485368463522,12.830823233128855,0.8899239449658722,all_numeric_16_cols,Tuned with 50 trials
+2026-02-28 13:07:50,009,Deep Learning (ANN),7.351194284198542,13.98534633532159,0.869223333037397,all_numeric_16_cols,3-layer MLP with EarlyStopping and Dropout
