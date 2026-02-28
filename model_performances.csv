@@ -1,2 +1,6 @@
 timestamp,model_id,model_name,mae,rmse,r2_score,features,comments
 2026-02-28 11:04:21,001,Linear Regression,22.293464738338887,37.40362953617447,0.06456997251105501,"['temp', 'humidity', 'wind_speed', 'wind_direction', 'avg_speed', 'total_vehicles']",Initial baseline model
+2026-02-28 11:33:02,002,Desicion Tree,20.46863747103066,35.47670022783459,0.1584687470443511,"['temp', 'humidity', 'wind_speed', 'wind_direction', 'avg_speed', 'total_vehicles']",Initial baseline model
+2026-02-28 11:44:16,002_v2,Decision Tree (Full Features),8.09375126493227,17.559686615740887,0.7938338624180235,all_numeric_16_cols,Decision Tree with max_depth=15 and full station dummies
+2026-02-28 11:44:16,002_v2,Decision Tree (Full Features),8.09375126493227,17.559686615740887,0.7938338624180235,all_numeric_16_cols,Decision Tree with max_depth=15 and full station dummies
+2026-02-28 11:49:12,003_v2,Random Forest (Full Features),6.961647426708181,13.689792300483061,0.8746923656192805,all_numeric_16_cols,100 trees with max_depth=20
