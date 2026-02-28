@@ -4,3 +4,8 @@ timestamp,model_id,model_name,mae,rmse,r2_score,features,comments
 2026-02-28 11:44:16,002_v2,Decision Tree (Full Features),8.09375126493227,17.559686615740887,0.7938338624180235,all_numeric_16_cols,Decision Tree with max_depth=15 and full station dummies
 2026-02-28 11:44:16,002_v2,Decision Tree (Full Features),8.09375126493227,17.559686615740887,0.7938338624180235,all_numeric_16_cols,Decision Tree with max_depth=15 and full station dummies
 2026-02-28 11:49:12,003_v2,Random Forest (Full Features),6.961647426708181,13.689792300483061,0.8746923656192805,all_numeric_16_cols,100 trees with max_depth=20
+2026-02-28 11:54:44,004,XGBoost,6.716906904528987,13.131806640044937,0.8846990802647843,all_numeric_16_cols,"1000 estimators, learning_rate 0.03, max_depth 7"
+2026-02-28 11:56:51,005,LightGBM,6.686367003967891,13.014451661485673,0.8867506906023835,all_numeric_16_cols,"1000 estimators, leaf-wise growth"
+2026-02-28 11:58:39,006,CatBoost,6.7029660478676885,13.045924443863086,0.8862022878435185,all_numeric_16_cols,"1000 iterations, symmetric trees"
+2026-02-28 12:01:00,007,"Stacking Ensemble (LGBM, XGB, CAT)",6.641591493183692,12.900389450564282,0.8887270874335365,all_numeric_16_cols,Combined top 3 models with Linear Meta-Regressor
+2026-02-28 12:47:22,008,LightGBM (Optuna Tuned),6.612485368463522,12.830823233128855,0.8899239449658722,all_numeric_16_cols,Tuned with 50 trials
