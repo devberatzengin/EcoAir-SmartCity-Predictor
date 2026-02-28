@@ -1,0 +1,2 @@
+timestamp,model_id,model_name,mae,rmse,r2_score,features,comments
+2026-02-28 11:04:21,001,Linear Regression,22.293464738338887,37.40362953617447,0.06456997251105501,"['temp', 'humidity', 'wind_speed', 'wind_direction', 'avg_speed', 'total_vehicles']",Initial baseline model
